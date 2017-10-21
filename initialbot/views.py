@@ -5,3 +5,6 @@ def hello(message):
 
 def greetings(message):
     return render(message, 'hello.md')
+
+def not_found(message):
+    return "Sorry, I can't understand what you're saying :("
